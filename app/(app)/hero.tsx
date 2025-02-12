@@ -6,7 +6,7 @@ export const Hero = () => {
     <section className="flex flex-col justify-center h-screen px-4 bg-primaryBackground">
       <div className="flex flex-col items-center md:flex-row lg:justify-center">
         <div className="flex flex-col gap-y-4 lg:w-1/2">
-          <h2 className="xs:text-5xl m:text-6xl font-bold lg:w-1/2">
+          <h2 className="font-bold xs:text-5xl m:text-6xl lg:w-1/2">
             <span className="text-emphasis">Music</span> for everyone
           </h2>
           <p className="lg:w-1/2">

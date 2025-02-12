@@ -2,7 +2,10 @@ import { InfoCard } from "@/components/info-card";
 
 export const PremiumSection = () => {
   return (
-    <section className="flex flex-col justify-center px-4 py-8 xl:px-6">
+    <section
+      className="flex flex-col justify-center px-4 py-8 xl:px-6"
+      id="premium"
+    >
       <div className="flex flex-col gap-y-6">
         <h2 className="text-5xl font-semibold text-primaryBackground md:text-6xl">
           Why go Premium

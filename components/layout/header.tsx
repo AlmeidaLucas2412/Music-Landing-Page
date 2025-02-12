@@ -28,13 +28,13 @@ export const Header = () => {
               <a href="#">Home</a>
             </li>
             <li className="hover:text-emphasis">
-              <a href="#">Concepts</a>
+              <a href="#concepts">Concepts</a>
             </li>
             <li className="hover:text-emphasis">
-              <a href="#">Pricing</a>
+              <a href="#pricing">Pricing</a>
             </li>
             <li className="hover:text-emphasis">
-              <a href="#t">Premium</a>
+              <a href="#premium">Premium</a>
             </li>
           </ul>
           <div className="flex justify-center w-full p-2 gap-y-2 gap-x-1 xl:flex-row">

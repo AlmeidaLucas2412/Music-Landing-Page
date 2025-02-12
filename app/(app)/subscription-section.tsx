@@ -3,7 +3,10 @@ import { Check } from "lucide-react";
 
 export const SubscriptionSection = () => {
   return (
-    <section className="flex flex-col justify-center px-4 py-8 bg-primaryBackground xl:px-6">
+    <section
+      className="flex flex-col justify-center px-4 py-8 bg-primaryBackground xl:px-6"
+      id="pricing"
+    >
       <div className="flex flex-col gap-y-4">
         <h2 className="m:text-5xl font-semibold xs:text-[2.5rem] md:text-6xl">
           Subscription from $15/month
