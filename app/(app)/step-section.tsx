@@ -3,9 +3,11 @@ import { FileVolume, MousePointerClick, UserRoundPen } from "lucide-react";
 
 export const StepSection = () => {
   return (
-    <section className="bg-primaryBackground flex flex-col px-4 py-8 justify-center">
-      <div className="flex flex-col gap-y-6">
-        <h2 className="text-5xl font-semibold">How it works</h2>
+    <section className="flex flex-col justify-center px-4 lg:px-6 py-8 bg-primaryBackground md:py-16">
+      <h2 className="py-4 mb-8 text-5xl font-semibold md:text-6xl">
+        How it works
+      </h2>
+      <div className="flex flex-col gap-y-6 md:flex-row md:gap-x-4 xl:px-6">
         <StepCard
           icon={UserRoundPen}
           title="Create an account"

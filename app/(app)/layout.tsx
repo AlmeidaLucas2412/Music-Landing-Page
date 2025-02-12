@@ -1,3 +1,4 @@
+import { Footer } from "@/components/layout/footer";
 import { Header } from "@/components/layout/header";
 
 type Props = {
@@ -9,6 +10,7 @@ const MainLayout = ({ children }: Props) => {
     <div className="flex flex-col min-h-screen overflow-hidden">
       <Header />
       <main>{children}</main>
+      <Footer />
     </div>
   );
 };

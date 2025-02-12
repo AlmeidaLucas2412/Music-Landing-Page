@@ -37,9 +37,15 @@ export const Header = () => {
               <a href="#t">Premium</a>
             </li>
           </ul>
-          <div className="flex justify-center w-full p-2">
+          <div className="flex justify-center w-full p-2 gap-y-2 gap-x-1 xl:flex-row">
             <Button className={cn("font-semibold xl:ml-4", isOpen && "w-full")}>
               Create an account
+            </Button>
+            <Button
+              className={cn("font-semibold xl:ml-4", isOpen && "w-full")}
+              variant="trial"
+            >
+              Login
             </Button>
           </div>
         </div>
